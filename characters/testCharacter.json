@@ -1,13 +1,135 @@
 {
 
-// needs Biographic Info
+"biography": {
+    "name": "Mikoto Kazumi",
+    "age": "25",
+    "role": "cop",
+    "languages": ["japanese", "english"]
+},
 
-// needs Stats
+"stats": {
 
-// needs Equipment
+    "intelligence": 7,
+    "reflex": 9,
+    "modifiedReflex": 9,
+    "tech": 5,
+    "cool": 8,
+    "attractiveness": 7,
+    "luck": 5,
+    "movementAllowance": 8,
+    "body": 8,
+    "empathy": 8,
+    "modifiedEmpathy": 8
 
-//needs Skills
+},
 
-//needs Health
+"equipment": {
 
+},
+
+"skills": {
+    "classSpecialAbility": 7,
+
+    "personalGrooming": 1,
+    "wardrobe": 1,
+
+    "endurance": 0,
+    "strengthFeat": 0,
+    "swimming": 0,
+
+    "interrogation": 3,
+    "intimidate": 0,
+    "oratory": 0,
+    "resistTortureDrugs": 0,
+    "streetwise": 3,
+
+    "humanPerception": 2,
+    "interview": 0,
+    "leadership": 0,
+    "seduction": 0,
+    "social": 0,
+    "persuasionFastTalk": 0,
+    "perform": 0,
+
+    "accounting": 0,
+    "anthropology": 0,
+    "awarenessNotice": 6,
+    "biology": 0,
+    "botany": 0,
+    "chemistry": 0,
+    "compostion": 0,
+    "diagnoseIllness": 0,
+    "education": 3,
+    "gamble": 0,
+    "geology": 0,
+    "hideEvade": 0,
+    "history": 0,
+    "librarySearch": 0,
+    "mathematics": 0,
+    "physics": 0,
+    "programming": 0,
+    "shadowTrack": 0,
+    "stockMarket": 0,
+    "systemKnowledge": 0,
+    "teaching": 0,
+    "wildernessSurvival": 0,
+    "zoology": 0,
+
+    "archery": 0,
+    "atheletics": 2,
+    "brawling": 0,
+    "dance": 0,
+    "dodgeEscape": 0,
+    "driving": 6,
+    "fencing": 0,
+    "handgun": 10,
+    "heavyWeapons": 0,
+    "melee": 4,
+    "motorcycle": 0,
+    "operateHeavyMachinery": 0,
+    "pilotGyro": 0,
+    "pilotFixedWing": 0,
+    "pilotDirigible": 0,
+    "pilotVectorThrustVehicle": 0,
+    "rifle": 5,
+    "stealth": 0,
+    "submachinegun": 3,
+
+    "aeroTech": 0,
+    "AVTech": 0,
+    "basicTech": 0,
+    "cryotankOperstion": 0,
+    "cyberdeckDesign": 0,
+    "cyberTech": 0,
+    "demolitions": 0,
+    "disguise": 0,
+    "electronics": 0,
+    "electronicSecurity": 0,
+    "firstAid": 0,
+    "forgery": 0,
+    "gyroTech": 0,
+    "paintDraw": 0,
+    "photoFilm": 0,
+    "pharmacuticals": 0,
+    "pickLock": 0,
+    "pickPocket": 0,
+    "playInstrument": 0,
+    "weaponsmith": 0,
+    "weaponsTech": 0
+
+},
+
+"vitals": {
+
+    "run": 24,
+    "leap": 6,
+    "carry":80,
+    "lift":240,
+    "save": 8,
+    "bodyTypeModifier": -3,
+    "damageTaken": 1,
+    "reputation": 3,
+    "currentIP": 100,
+    "humantiy":65.5
+}
 }

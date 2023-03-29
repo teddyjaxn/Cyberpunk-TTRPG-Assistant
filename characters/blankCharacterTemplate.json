@@ -1,0 +1,135 @@
+{
+
+"biography": {
+    "name": null,
+    "age": null,
+    "role": null,
+    "languages": [null]
+},
+
+"stats": {
+
+    "intelligence": null,
+    "reflex": null,
+    "modifiedReflex": null,
+    "tech": null,
+    "cool": null,
+    "attractiveness": null,
+    "luck": null,
+    "movementAllowance": null,
+    "body": null,
+    "empathy": null,
+    "modifiedEmpathy": null
+
+},
+
+"equipment": {
+
+},
+
+"skills": {
+    "classSpecialAbility": null,
+
+    "personalGrooming": null,
+    "wardrobe": null,
+
+    "endurance": null,
+    "strengthFeat": null,
+    "swimming": null,
+
+    "interrogation": null,
+    "intimidate": null,
+    "oratory": null,
+    "resistTortureDrugs": null,
+    "streetwise": null,
+
+    "humanPerception": null,
+    "interview": null,
+    "leadership": null,
+    "seduction": null,
+    "social": null,
+    "persuasionFastTalk": null,
+    "perform": null,
+
+    "accounting": null,
+    "anthropology": null,
+    "awarenessNotice": null,
+    "biology": null,
+    "botany": null,
+    "chemistry": null,
+    "compostion": null,
+    "diagnoseIllness": null,
+    "education": null,
+    "gamble": null,
+    "geology": null,
+    "hideEvade": null,
+    "history": null,
+    "librarySearch": null,
+    "mathematics": null,
+    "physics": null,
+    "programming": null,
+    "shadowTrack": null,
+    "stockMarket": null,
+    "systemKnowledge": null,
+    "teaching": null,
+    "wildernessSurvival": null,
+    "zoology": null,
+
+    "archery": null,
+    "atheletics": null,
+    "brawling": null,
+    "dance": null,
+    "dodgeEscape": null,
+    "driving": null,
+    "fencing": null,
+    "handgun": null,
+    "heavyWeapons": null,
+    "melee": null,
+    "motorcycle": null,
+    "operateHeavyMachinery": null,
+    "pilotGyro": null,
+    "pilotFixedWing": null,
+    "pilotDirigible": null,
+    "pilotVectorThrustVehicle": null,
+    "rifle": null,
+    "stealth": null,
+    "submachinegun": null,
+
+    "aeroTech": null,
+    "AVTech": null,
+    "basicTech": null,
+    "cryotankOperstion": null,
+    "cyberdeckDesign": null,
+    "cyberTech": null,
+    "demolitions": null,
+    "disguise": null,
+    "electronics": null,
+    "electronicSecurity": null,
+    "firstAid": null,
+    "forgery": null,
+    "gyroTech": null,
+    "paintDraw": null,
+    "photoFilm": null,
+    "pharmacuticals": null,
+    "pickLock": null,
+    "pickPocket": null,
+    "playInstrument": null,
+    "weaponsmith": null,
+    "weaponsTech": null
+
+},
+
+"vitals": {
+
+    "run": null,
+    "leap": null,
+    "carry":null,
+    "lift":null,
+    "save": null,
+    "bodyTypeModifier": null,
+    "damageTaken": null,
+    "reputation": null,
+    "currentIP": null,
+    "humantiy":null
+}
+}
