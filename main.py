@@ -25,15 +25,38 @@ with characterDirectory as i:
 #   1. Aquire the characters folder
 #   2. Scan the folder for files, and save their filenames to a list.
 #   3. Print out the number of character files located, otherwise state that no files were found.
-if numberFilesFound > 0:
+if numberFilesFound < 1:
+    print("No character data located")
+else:
     print("Successfully loaded "+str(numberFilesFound)+" characters:")
     for i in CharacterFiles:
         print(i)
-else:
-    print("No saved character data located.")
+
+print()
+
+currentCharacterData = dict
+
+characterDataVerified = False
+
+while characterDataVerified == False:
+    targetCharacterData = input('Please enter the name of the character data file you would like to load: ')
+    for i in CharacterFiles:
+        if i == targetCharacterData:
+            print("Valid character data Located. Importing ... ")
+            characterDataVerified = True
+            with open('characters/'+targetCharacterData, 'r') as file:
+                currentCharacterData = json.load(file)
+            break
+
+    if  characterDataVerified == False:
+        print("Error: Invalid file name entered. Please ensure you have included the file extension in your response.")
+
+print(currentCharacterData["biography"]["name"])
+
+
 
 # to do: Access the data in the characters folder using the list of filenames
-#        edit that information through a terminal interface (for now)
+#        edit that information through a GUI interface interface
 #        Save that edited information back to the file.
 
 # "long term" to do: allow the creation of new character files through terminal
